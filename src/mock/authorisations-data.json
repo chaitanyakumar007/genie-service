@@ -1,0 +1,79 @@
+{
+    "id": "13700",
+    "created": "2022-06-28T14:00:19Z",
+    "status": "PARTIAL",
+    "transactionType": "PURCHASE",
+    "channel": "ECOMMERCE",
+    "messageType": "0110",
+    "merchant": {
+        "id": "1337",
+        "name": "Epic Board Games Inc.",
+        "countryCode": "GBR",
+        "mcc": "1234",
+        "allianceCode": "FISV",
+        "partnerCode": null,
+        "storeId": "9876"
+    },
+    "meta": {
+        "orderId": "8000020",
+        "referenceId": "61899",
+        "GUID": "84518539274",
+        "retrievalReferenceNumber": "130237163512",
+        "merchantReference1": "9981234",
+        "merchantReference2": null,
+        "reservationNumber": "A-4a1e441f-6416-4906-b764-9933c3d48706",
+        "customerIPAddress": "192.168.33.10",
+        "cardholderEmail": "hero@epicboardgamesinc.com",
+        "products": [
+            {
+                "id": "42"
+            }
+        ]
+    },
+    "paymentInstrument": {
+        "category": "CARD",
+        "brand": "MC",
+        "subType": "MPL",
+        "serviceType": "CREDIT",
+        "number": "555555******4444",
+        "expiryDate": "2801"
+    },
+    "financial": {
+        "amounts": {
+            "authorised": "67.93",
+            "currencyCode": "GBP",
+            "tip": null,
+            "cashback": null
+        },
+        "dcc": {
+            "rate": null,
+            "indicator": "NONE",
+            "currencyCode": "GBP"
+        },
+        "instalment": {
+            "totalNumber": null,
+            "totalAmount": null,
+            "first": null
+        }
+    },
+    "transactionAttributes": {
+        "avsResponse": "G",
+        "cvv2Result": "P",
+        "reversal": "NON_REVERSED",
+        "issuerResponseCode": "00"
+    },
+    "captureEnvironment": {
+        "platform": "IPG",
+        "transactionSource": "TERMINAL",
+        "captureMethod": "CHIP_CONTACTLESS",
+        "threeDS": "NON_3DS",
+        "terminal": {
+            "id": "TID10120",
+            "serialNumber": "2321311133",
+            "workstationId": null,
+            "capability": "MANUAL",
+            "activationFlag": "ACTIVATED",
+            "pinCaptureCapability": null
+        }
+    }
+}

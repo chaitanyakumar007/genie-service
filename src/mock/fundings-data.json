@@ -1,0 +1,32 @@
+{
+    "id": "12302",
+    "funded": "2022-06-30T14:00:00Z",
+    "posted": "2022-06-29T18:00:00Z",
+    "status": "HELD",
+    "type": {
+      "code": "250",
+      "description": "Merchant Payment"
+    },
+    "merchant": {
+      "id": "1337",
+      "name": "Epic Board Games Inc",
+      "allianceCode": "FISV",
+      "partnerCode": null
+    },
+    "account": {
+      "id": "1234",
+      "reference": "89002822",
+      "iban": "GB****************5555",
+      "type": {
+        "code": "170",
+        "description": "Payment Account Retail"
+      },
+      "currencyCode": "GBP"
+    },
+    "financial": {
+      "netAmount": "2068.91"
+    },
+    "meta": {
+      "paymentReference": "221001"
+    }
+  }
